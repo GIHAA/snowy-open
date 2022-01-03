@@ -60,7 +60,7 @@ void loop()
 
 
 
-        /*} else if(time < 25000) { // Counter clockwise
+          } else if(time < 25000) { // Counter clockwise
           osc_right.SetPh( DEG2RAD( 0 ));
           osc_left.SetPh( DEG2RAD( 180 ));
           } else if(time < 30000) { // Backward
@@ -79,7 +79,7 @@ void loop()
           T = map(time,45000,55000,1000,10000);
           osc_middle.SetT(T); // Set the period of work (each time higher, from T=1000 to T=10000)
           osc_right.SetT(T);
-          osc_left.SetT(T);*/
+          osc_left.SetT(T);
 
        else { // Until it stops, then we can stop the program
         while (1);
